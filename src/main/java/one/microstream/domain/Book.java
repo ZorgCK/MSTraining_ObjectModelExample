@@ -1,5 +1,8 @@
 package one.microstream.domain;
 
-public class Book {
+import java.util.UUID;
 
+public class Book 
+{
+	private String id = UUID.randomUUID().toString();
 }

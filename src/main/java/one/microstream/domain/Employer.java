@@ -1,5 +1,8 @@
 package one.microstream.domain;
 
-public class Employer {
+import java.util.UUID;
 
+public class Employer 
+{
+	private String id = UUID.randomUUID().toString();
 }
