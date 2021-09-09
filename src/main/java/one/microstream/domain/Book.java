@@ -2,7 +2,10 @@ package one.microstream.domain;
 
 import java.util.UUID;
 
-public class Book 
+
+public class Book
 {
-	private String id = UUID.randomUUID().toString();
+	private String	id	= UUID.randomUUID().toString();
+	
+	private Author	author;
 }
